@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B347B3191BA9838300E2E55A /* RSBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B347B3181BA9838300E2E55A /* RSBoard.m */; };
 		B3CB1D471BA742520092B08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB1D461BA742520092B08C /* Foundation.framework */; };
 		B3CB1D491BA742520092B08C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB1D481BA742520092B08C /* CoreGraphics.framework */; };
 		B3CB1D4B1BA742520092B08C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB1D4A1BA742520092B08C /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B347B3171BA9838300E2E55A /* RSBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBoard.h; sourceTree = "<group>"; };
+		B347B3181BA9838300E2E55A /* RSBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBoard.m; sourceTree = "<group>"; };
 		B3CB1D431BA742520092B08C /* 22TouchesHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22TouchesHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CB1D461BA742520092B08C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3CB1D481BA742520092B08C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				B3CB1D5B1BA742520092B08C /* Main_iPad.storyboard */,
 				B3CB1D5E1BA742520092B08C /* RSViewController.h */,
 				B3CB1D5F1BA742520092B08C /* RSViewController.m */,
+				B347B3171BA9838300E2E55A /* RSBoard.h */,
+				B347B3181BA9838300E2E55A /* RSBoard.m */,
 				B3CB1D611BA742520092B08C /* Images.xcassets */,
 				B3CB1D4D1BA742520092B08C /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CB1D531BA742520092B08C /* main.m in Sources */,
+				B347B3191BA9838300E2E55A /* RSBoard.m in Sources */,
 				B3CB1D571BA742520092B08C /* RSAppDelegate.m in Sources */,
 				B3CB1D601BA742520092B08C /* RSViewController.m in Sources */,
 			);
@@ -471,6 +477,7 @@
 				B3CB1D7A1BA742520092B08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3CB1D7B1BA742520092B08C /* Build configuration list for PBXNativeTarget "22TouchesHWTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				B3CB1D7D1BA742520092B08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
